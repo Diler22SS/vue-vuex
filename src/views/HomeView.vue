@@ -1,18 +1,37 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <CounterPowScreen />
+    <PowScreen />
+    <InputPow />
+    <CounterButton />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import CounterPowScreen from "../components/CounterPowScreen.vue";
+import PowScreen from "../components/PowScreen.vue";
+import InputPow from "../components/InputPow.vue";
+import CounterButton from "../components/CounterButton.vue";
 export default {
   name: "HomeView",
-  components: {
-    HelloWorld,
+  data() {
+    return {};
   },
+  components: { CounterPowScreen, PowScreen, InputPow, CounterButton },
 };
 </script>
+
+<style>
+div {
+  margin-bottom: 30px;
+}
+.counter {
+  font-size: 80px;
+}
+.button {
+  font-size: 40px;
+}
+button {
+  margin: 20px;
+}
+</style>
