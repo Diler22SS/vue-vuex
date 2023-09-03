@@ -1,24 +1,3 @@
-# vue_vuex
+# vue-vuex
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Vuex](https://github.com/Diler22SS/vue-vuex/assets/116864243/3572afb8-4289-4523-ad8d-03561ea25714)
